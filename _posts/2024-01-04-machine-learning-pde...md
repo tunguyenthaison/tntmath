@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Some papers on PDE and ML"
+author: "Eson"
+tags: math, mitake
+# excerpt_separator: <!--more-->
+mathjax: true
+---
+
+
+
+
+
+## 2024-12-29 Initial chatting on papers I should read
+
+- A representation formula for viscosity solutions of nonlocal Hamilton--Jacobi equations and applications - [arxiv](https://arxiv.org/abs/2310.00925)
+  
+    > Takashi Kagaya, Qing Liu, Hiroyoshi Mitake
+    > 
+    > This paper is concerned with geometric motion of a closed surface whose velocity depends on a nonlocal quantity of the enclosed region. Using the level set formulation, we study a class of nonlocal Hamilton--Jacobi equations and establish a control-based representation formula for solutions. We also apply the formula to discuss the fattening phenomenon and large-time asymptotics of the solutions.
+
+### Direction
+- Mean field limit
+- Langevin dynamics
+- Neural Tangent Kernel (fancy name, but basically linearization)
+
+### Macchine learning starting point
+
+- [Uniform-in-time propagation of chaos for the mean-field gradient Langevin dynamics](https://openreview.net/forum?id=_JScUk9TBUn), Taiji Suzuki, Atsushi Nitanda, Denny Wu.
+
+Follow up: 
+
+- [Convergence of mean-field Langevin dynamics: Time and space discretization, stochastic gradient, and variance reduction](https://openreview.net/pdf?id=9STYRIVx6u), Taiji Suzuki, Denny Wu, Atsushi Nitanda.
+
+Another related paper:
+
+- [Wasserstein Gradient Flow over Variational Parameter Space for Variational Inference](https://paperswithcode.com/paper/wasserstein-gradient-flow-over-variational), Dai Hai Nguyen, Tetsuya Sakurai, Hiroshi Mamitsuka 
+
