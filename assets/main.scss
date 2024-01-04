@@ -1,0 +1,102 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import 'tale';
+
+@font-face {
+	font-family: "goodmonday";
+	src: url("../assets/fonts/GoodMondays-Regular.ttf");
+}
+
+html, body {
+    // background-color: antiquewhite;
+    // font-family: "goodmonday", sans-serif;
+}
+
+
+
+
+
+/* CONTAINER-FIRST-WITH-TITLE */
+
+.container-image-first {
+    display: flex;
+    // width: max-content;
+    width: auto;
+  }
+  
+.col {
+    flex: 1;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: red;
+    // height: 400px;
+    width: max-content;
+    padding: 2%; /* Add padding to the frist column */
+}
+
+.col img {
+    max-width: 100%; /* Make sure the image doesn't exceed the column width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any extra space beneath the image */
+  }
+
+.col:first-child {
+    flex: 2; /* Make the first column wider */
+}
+
+.col:nth-child(2) {
+    display: flex;
+    // background-color: yellow;
+
+    align-self: flex-end;
+    // align-content: center;
+    text-align:left;
+    padding: 2%; /* Add padding to the second column */
+}
+
+.col:nth-child(2) h2 {
+    margin-top: 0; /* Remove the top margin */
+    align-self: flex-start; /* Align at the top */
+    // margin-bottom: 40px; /* Adjust as needed for spacing between header and content */
+    font-family: inherit; /* Use the font of the whole body */
+  }
+
+/* CONTAINER-LEFT and RIGHT*/
+
+.side-by-side-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .left-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .left-content h2 {
+    color: #333;
+  }
+
+  .right-content {
+    flex: 1;
+    // text-align: center;
+  }
+
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+/* REMOVE BULLET */
+ul {
+    list-style: none;
+  }
+
+  

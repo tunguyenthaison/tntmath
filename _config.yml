@@ -1,0 +1,56 @@
+# Site settings
+title:          eses
+description:    "Minimal Jekyll theme for storytellers"
+
+url:            "https://eses-corner.github.io/test/"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         esther
+  url:          
+  email:        
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages  
+  - _photos  
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jekyll-datapage-generator
+  # - jemoji #Uncomment this to allow emoji in your post
+  
+  # Plugin Github Pages
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Permalinks
+# permalink:      /:year-:month-:day/:title
+# permalink:        /blog/:title/
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
+
+# Github Pages
+remote_theme: chesterhow/tale
+
+
+collections:
+  photos:
+    output: true
