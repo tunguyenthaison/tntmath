@@ -1,15 +1,15 @@
 # Site settings
-title:          eses
+title:          tntmath
 description:    "Minimal Jekyll theme for storytellers"
 
-url:            "https://eses-corner.github.io/test/"
+url:            "https://tunguyenthaison.github.io/tntmath/"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         esther
+  name:         tntmath
   url:          
   email:        
 
