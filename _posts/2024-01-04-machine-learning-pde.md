@@ -3,13 +3,17 @@ layout: post
 title: "Some papers on PDE and ML"
 author: "Eson"
 tags: math, mitake
-# excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 mathjax: true
 ---
 
 Some papers as a beginner to learn PDE and ML.
 
+$$
+    \int_0^\infty \frac{dx}{x^x}
+$$
 
+<!--more-->
 
 ## 2024-12-29 Initial chatting on papers I should read
 
