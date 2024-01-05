@@ -3,11 +3,11 @@
 
   &-info {
     color: $default-tint;
-    // font-family: $serif-secondary;
-    // letter-spacing: 0.5px;
-    // text-align: center;
+    font-family: $serif-secondary;
+    letter-spacing: 0.5px;
+    text-align: center;
     font-style: italic;
-    text-align: right;
+    // text-align: right;
 
     span {
       font-style: italic;
@@ -31,7 +31,7 @@
 
   p {
     margin: 0 0 1rem;
-    // text-align: justify;
+    text-align: justify;
   }
 
   a:hover {
