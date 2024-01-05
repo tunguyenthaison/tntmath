@@ -3,7 +3,7 @@ layout: post
 title: "Some papers on PDE and ML"
 author: "Eson"
 tags: math, mitake
-# excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 mathjax: true
 ---
 
