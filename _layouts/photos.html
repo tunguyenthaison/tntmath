@@ -5,8 +5,9 @@ layout: default
 
 
 <div class="catalogue">
-    {% for post in site.photos %}
+    {% for post in site.photos reversed %}
         {{ post.output }}
+        
     {% endfor %}
 
     {% for post in site.posts %}

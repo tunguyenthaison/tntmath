@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-{{ content }}
+
 
 <div class="post-info">
     <!-- <span>Written by</span>
@@ -17,7 +17,14 @@
       <br>
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
-  </div>
+    <div class="post-line"></div>
+
+</div>
+
+{{ content }}
+
+<hr>
+
 
 </html>
 
