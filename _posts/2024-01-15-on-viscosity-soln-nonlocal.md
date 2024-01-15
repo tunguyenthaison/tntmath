@@ -14,3 +14,4 @@ If $Iu \leq f$ in the viscosity sense, and $\varphi\in C^2$ such that
 $$
     \varphi(x) = u (x), \qquad \varphi(y) > u(y)\;\text{for}\;y\neq x.
 $$
+We claim that $Iu(x)$ is well-defined in the classical sense, with $Iu(x)\leq f(x)$ classically.
