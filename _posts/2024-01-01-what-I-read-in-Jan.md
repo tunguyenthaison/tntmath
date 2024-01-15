@@ -12,4 +12,4 @@ date: 2024-01-01
  
     This is a very old article, published on December 16, 2012. A fascinating read.
 
-- 🗞️ 2024-01-14, [POLITICS AND THE ENGLISH LANGUAGE](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
+- 🗞️ 2024-01-14, [Politics and the English language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
